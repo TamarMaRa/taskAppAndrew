@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  background-color: #6a4ab1;
+  color: white;
+  padding: 10px;
+  box-shadow: none;
+  border: none;
+}
+
+input {
+  padding: 10px;
+}
+
+.chat__sidebar {
+  width: 300px;
+  height: 100vh;
+  background-color: #2a2d3a;
+}
+
+.chat {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: row;
+}
+
+.chat__messages {
+  padding: 20px;
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat__main {
+  width: 80vw;
+  height: 100vh;
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+
+.compose {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  position: absolute;
+  bottom: 10px;
+  align-self: center;
+}
+
+.message-input {
+  margin-right: 10px;
+  width: 40vw;
+}
+
+.message__name {
+  font-weight: bold;
+}
+
+.message__meta {
+  color: gray;
+}
+
+.centered-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #303340;
+  height: 100vw;
+}
+
+.centered-form__box,
+.centered-form__box form {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.centered-form__box {
+  padding: 20px;
+box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.38);}
+
+.centered-form__box form {
+  gap: 5px;
+}
