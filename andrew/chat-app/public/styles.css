@@ -73,7 +73,7 @@ input {
   align-items: center;
   justify-content: center;
   background-color: #303340;
-  height: 100vw;
+  height: 100vh;
 }
 
 .centered-form__box,
@@ -81,6 +81,7 @@ input {
   display: flex;
   flex-direction: column;
   background-color: white;
+  width: 20vw;
 }
 
 .centered-form__box {
@@ -89,4 +90,16 @@ box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.38);}
 
 .centered-form__box form {
   gap: 5px;
+}
+
+.room-title {
+  color: white;
+}
+
+.list-title{
+  color: white;
+}
+
+.users{
+  color: white;
 }
